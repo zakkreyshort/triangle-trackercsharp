@@ -2,3 +2,10 @@
 /Users/zakkreyshort/Desktop/triangle-tracker/obj/Debug/netcoreapp2.2/Triangle.csproj.CoreCompileInputs.cache
 /Users/zakkreyshort/Desktop/triangle-tracker/obj/Debug/netcoreapp2.2/Triangle.AssemblyInfoInputs.cache
 /Users/zakkreyshort/Desktop/triangle-tracker/obj/Debug/netcoreapp2.2/Triangle.AssemblyInfo.cs
+/Users/zakkreyshort/Desktop/triangle-tracker/bin/Debug/netcoreapp2.2/Triangle.deps.json
+/Users/zakkreyshort/Desktop/triangle-tracker/bin/Debug/netcoreapp2.2/Triangle.runtimeconfig.json
+/Users/zakkreyshort/Desktop/triangle-tracker/bin/Debug/netcoreapp2.2/Triangle.runtimeconfig.dev.json
+/Users/zakkreyshort/Desktop/triangle-tracker/bin/Debug/netcoreapp2.2/Triangle.dll
+/Users/zakkreyshort/Desktop/triangle-tracker/bin/Debug/netcoreapp2.2/Triangle.pdb
+/Users/zakkreyshort/Desktop/triangle-tracker/obj/Debug/netcoreapp2.2/Triangle.dll
+/Users/zakkreyshort/Desktop/triangle-tracker/obj/Debug/netcoreapp2.2/Triangle.pdb

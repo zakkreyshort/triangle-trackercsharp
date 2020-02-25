@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 public class Triangle
 {
-  public int Side1;
-  public int Side2;
-  public int Side3;
+  public int SideOne;
+  public int SideTwo;
+  public int SideThree;
 
   public Triangle(int Side1, int Side2, int Side3)
   {
@@ -13,7 +13,6 @@ public class Triangle
       SideTwo = Side2;
       SideThree = Side3;
   }
-}
 public string CheckSide()
 {
     if(SideOne == SideTwo && SideOne == SideThree)
@@ -30,13 +29,46 @@ public string CheckSide()
     }
 }
 
-public bool
+public bool IsATriangle()
+{
+    if(SideOne + SideTwo > SideThree && SideTwo + SideThree > SideOne && SideThree + SideOne > SideTwo)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+}
 
-// secondary 
+
 public class Program
 {
   public static void Main()
   {
-      
+    Console.WriteLine("Input a number");
+    string stringSideOne = Console.ReadLine();
+    int intSideOne = int.Parse(stringSideOne);
+
+    Console.WriteLine("Input another number");
+    string stringSideTwo = Console.ReadLine();
+    int intSideTwo = int.Parse(stringSideTwo);
+
+    Console.WriteLine("Input a third number");
+    string stringSideThree = Console.ReadLine();
+    int intSideThree = int.Parse(stringSideThree);
+
+    Triangle userTriangle = new Triangle(intSideOne, intSideTwo, intSideThree);
+
+    if (userTriangle.IsATriangle())
+    {
+    Console.WriteLine(userTriangle.CheckSide());
+    }
+    else
+    {
+    Console.WriteLine("Is not a triangle");
+    }
+
   }
 }
